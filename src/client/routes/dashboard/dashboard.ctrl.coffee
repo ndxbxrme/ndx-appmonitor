@@ -5,7 +5,7 @@ angular.module 'appMon'
   $scope.url = ''
   $scope.username = ''
   $scope.password = ''
-  $scope.tickTime = 1
+  $scope.tickTime = 3
   $scope.minsToShow = 30
   Series = (legend, color, type) ->
     type: type or 'area'
