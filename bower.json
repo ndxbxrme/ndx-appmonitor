@@ -1,0 +1,26 @@
+{
+  "name": "ndx-appmonitor",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "ndxbxrme <lewis_the_cat@hotmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "bower",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.2.4",
+    "angular": "^1.6.2",
+    "angular-ui-router": "^0.4.2",
+    "humane-js": "^3.2.2",
+    "highcharts-ng": "^1.0.1",
+    "highcharts": "^5.0.7"
+  }
+}

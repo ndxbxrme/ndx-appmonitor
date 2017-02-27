@@ -1,0 +1,12 @@
+
+@import url('https://fonts.googleapis.com/css?family=Baloo')
+@import 'variables'
+body
+  font-family 'Arial', sans-serif
+  margin 0
+  color #383f63
+  min-height 100%
+  display flex
+  flex-direction column
+  background #fff!important
+  position relative

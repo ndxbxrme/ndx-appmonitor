@@ -1,0 +1,16 @@
+.dashboard
+  h1 ndx app monitor
+  form.connect(ng-submit='connect()')
+    input(type='text', ng-model='url', placeholder='Url')
+    input(type='text', ng-model='username', placeholder='Username')
+    input(type='password', ng-model='password', placeholder='Password')
+    button(type='submit', value='Connect') Connect
+  .versions(ng-show='connected')
+    .version Server: 
+      strong {{serverVersion}}
+    .version Database: 
+      strong {{databaseVersion}}
+    .start-time Start Time: 
+      strong {{startTime}}
+  .charts(ng-show='connected')
+    highchart(ng-repeat='chart in charts', config='chart')
