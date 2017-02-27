@@ -47369,7 +47369,7 @@ if (typeof module !== 'undefined' && typeof exports !== 'undefined' && module.ex
       $scope.url = '';
       $scope.username = '';
       $scope.password = '';
-      $scope.tickTime = 1;
+      $scope.tickTime = 3;
       $scope.minsToShow = 30;
       Series = function (legend, color, type) {
         return {
