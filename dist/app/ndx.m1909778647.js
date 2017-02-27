@@ -47366,9 +47366,9 @@ if (typeof module !== 'undefined' && typeof exports !== 'undefined' && module.ex
     'base64',
     function ($scope, $http, $interval, $filter, base64) {
       var Options, Series, cacheChart, cpuChart, dbChart, getChange, last, memchart, reqChart, resChart, scroll, stop;
-      $scope.url = 'https://myproperty.vitalspace.co.uk';
-      $scope.username = 'superadmin@admin.com';
-      $scope.password = 'admin';
+      $scope.url = '';
+      $scope.username = '';
+      $scope.password = '';
       $scope.tickTime = 1;
       $scope.minsToShow = 30;
       Series = function (legend, color, type) {

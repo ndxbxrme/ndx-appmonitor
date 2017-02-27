@@ -2,9 +2,9 @@
 
 angular.module 'appMon'
 .controller 'DashboardCtrl', ($scope, $http, $interval, $filter, base64) ->
-  $scope.url = 'https://myproperty.vitalspace.co.uk'
-  $scope.username = 'superadmin@admin.com'
-  $scope.password = 'admin'
+  $scope.url = ''
+  $scope.username = ''
+  $scope.password = ''
   $scope.tickTime = 1
   $scope.minsToShow = 30
   Series = (legend, color, type) ->
